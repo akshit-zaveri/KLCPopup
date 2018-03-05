@@ -114,7 +114,7 @@ const KLCPopupLayout KLCPopupLayoutCenter = { KLCPopupHorizontalLayoutCenter, KL
     _backgroundView.frame = self.bounds;
     
     _containerView = [[UIView alloc] init];
-    _containerView.autoresizesSubviews = NO;
+    _containerView.autoresizesSubviews = YES;
     _containerView.userInteractionEnabled = YES;
     _containerView.backgroundColor = [UIColor clearColor];
     
