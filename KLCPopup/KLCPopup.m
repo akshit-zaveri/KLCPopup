@@ -636,6 +636,7 @@ const KLCPopupLayout KLCPopupLayoutCenter = { KLCPopupHorizontalLayoutCenter, KL
                                                  views:views]];
       
       // Determine final position and necessary autoresizingMask for container.
+	containerFrame.size.width = self.window.frame.size.width - 30;
       CGRect finalContainerFrame = containerFrame;
       UIViewAutoresizing containerAutoresizingMask = UIViewAutoresizingNone;
       
